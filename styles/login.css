@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 10px;
+}
+
+.logo:hover {
+  transition: 0.7s;
+  transform: scale(1.1) rotate(360deg);
+}
+
+/* .title {
+  margin-top: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+} */
+
+.box-social-media {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.button-media {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  background-color: #fff;
+  border: 0.5px solid #8c8c8c;
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.button-media:hover {
+  transition: 0.3s;
+  background-color: #f6f6f6;
+  transform: scale(1.02);
+}
+
+.button-media:hover .icon-media-gmail {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+
+.button-media:hover .icon-media-facebook {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+
+.icon-media-gmail {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-media-facebook {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-media-facebook:hover {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+
+.form-check-input {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border: #8c8c8c solid 2px;
+}
+
+.form-check-input:checked {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.form-check-input:focus {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.create {
+  padding-left: clamp(2rem, 5vw, 8rem);
+  padding-right: clamp(2rem, 5vw, 8rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-image {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../public/assets/capa-login1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4.8rem 3rem;
+  justify-content: end;
+  color: white;
+}
+.box-image h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.box-image p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+.button-login {
+  border: none;
+  width: 100%;
+  background-color: #f8475e;
+  color: #ffffff;
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+}
+
+.btn-login {
+  background-color: #f8475e;
+}
+
+.btn-login:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  background-color: #df3f54;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.remember-me p {
+  color: #2ec0c2;
+  font-weight: 500;
+}
+.remember-me p:hover {
+  color: #29acad;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.account {
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.acc-crt-exs {
+  color: #29acad;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.acc-crt-exs:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .box-social-media {
+    flex-direction: row;
+    column-gap: 1rem;
+  }
+  /* .title {
+      margin-top: 2.5rem;
+    } */
+}
+@media (min-width: 992px) {
+  .box-image {
+    display: flex;
+  }
+}
