@@ -9,7 +9,7 @@ const Login = () => {
   return (
     <div className="container-fluid" id="container-main">
       <div className="row">
-        <div className="col-lg-5 col-sm-12 create">
+        <div className="col-lg-5 col-sm-12 create" aria-label="Área de login">
           <Link href="/">
             <Image className="logo"
               src="/assets/maos.png"
@@ -44,15 +44,14 @@ const Login = () => {
 
         {/* Original sem componente--------------------------------------------------------------------
         
-        
         <div className="form-floating input-float my-3">
           <input type="text" className="form-control" id="inputCPF" placeholder="Seu E-mail" />
-          <label className="label-float" for="inputCPF">E-mail</label>
-
+          <label className="label-float" htmlFor="inputCPF">E-mail</label>
         </div>
+
         <div className="form-floating input-float">
           <input type="password" className="form-control" id="password" placeholder="Senha" />
-          <label className="label-float" for="password">Senha</label>
+          <label className="label-float" htmlFor="password">Senha</label>
         </div> */}
 
 
@@ -84,7 +83,7 @@ const Login = () => {
                 id="check-payment"
                 value="option1"
               />
-              <label className="form-check-label" for="check-payment">
+              <label className="form-check-label" htmlFor="check-payment">
                 Lembre-me
               </label>
             </div>

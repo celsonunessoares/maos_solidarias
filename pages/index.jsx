@@ -42,9 +42,13 @@ const Main = () => {
                pessoas que precisam.
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
-               <Button href="#" className="btn btn-primary btn-main">
+               <Button
+                  href="https://api.whatsapp.com/send?phone=86998017727&text=%20Agradecemos%20imensamente%20por%20sua%20generosidade%20e%20por%20se%20juntar%20a%20nós%20nesta%20causa%20.%20*Sua%20chave%20Pix%20para%20a%20doação%20é*: %20celso.the%40gmail.com"
+                  className="btn btn-primary btn-main"
+               >
                   Doar agora
                </Button>
+
             </div>
          </div>
          <div className="col-lg-6 text-center">
@@ -122,7 +126,7 @@ const Stats = () => {
             <Title weightFont={600} sizeFont={'2rem'} marginTop={'0'}>
                Um pouco sobre as arrecadações
             </Title>
-               <p>Nossa missão é fornecer suporte imediato e essencial às vítimas de desastres naturais. Acreditamos que a solidariedade e a rapidez na resposta salvam vidas e reconstroem futuros.
+               <p>Minha missão é fornecer suporte imediato e essencial às vítimas de desastres naturais. Acreditamos que a solidariedade e a rapidez na resposta salvam vidas e reconstroem futuros.
                Graças à generosidade de milhares de doadores ativos na plataforma, conseguimos mobilizar rapidamente itens vitais. A transparência é nosso pilar: cada doação é rastreada, garantindo que Alimentos, Roupas, Medicamentos e materiais de Construção cheguem diretamente a quem mais precisa. Junte-se a nós para continuar transformando esses números em ajuda real.</p>
            
             </div>
@@ -232,6 +236,7 @@ const Events = () => {
                Eventos
             </Title>
          <div className="row row-cols-auto gap-4 justify-content-around my-3 px-0">
+            
             {events.map((event) => (
                <EventCard
                   key={event.title}
@@ -249,6 +254,8 @@ const Events = () => {
       </section>
    );
 };
+
+
 
 const News = () => {
    const news = [

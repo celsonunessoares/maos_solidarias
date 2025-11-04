@@ -52,9 +52,7 @@ const Valores = () => {
             <div class="descricao-valores">
                 <h1 class="descricao-tit-valores">Nossos Valores</h1>
                 <h3 class="descricao-subtit-valores">Nossos valores são fundamentados na compaixão, solidariedade e
-                    comprometimento. Acreditamos na importância de agir com empatia e respeito, reconhecendo a dignidade
-                    de
-                    cada indivíduo afetado por desastres naturais.</h3>
+                    comprometimento. Acreditamos na importância de agir com empatia e respeito, reconhecendo a dignidade de cada indivíduo afetado por desastres naturais.</h3>
             </div>
 
             <div class="imagens-valores">
