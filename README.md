@@ -40,7 +40,7 @@ O desenvolvimento desta aplicação Full Stack utiliza as seguintes ferramentas:
 
 ## 👥 Equipe e Orientação
 
-### Integrante(s)
+### Aluno:
 
 * **Celso Nunes Soares** - (https://github.com/celsonunessoares)
 
