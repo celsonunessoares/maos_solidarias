@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+.admin-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.admin-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.admin-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.admin-form .form-floating textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn-admin {
+  background-color: #f8475e;
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 0.25rem;
+  border: none;
+  min-width: 200px;
+}
+
+.btn-admin:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  background-color: #df3f54;
+}
+
+.btn-admin-cancel {
+  background-color: #6c757d;
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 0.25rem;
+  border: none;
+  min-width: 200px;
+}
+
+.btn-admin-cancel:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  background-color: #5a6268;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 1rem;
+  }
+
+  .admin-form {
+    padding: 1.5rem;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+
+  .btn-admin,
+  .btn-admin-cancel {
+    width: 100%;
+  }
+}
+

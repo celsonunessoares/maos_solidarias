@@ -10,6 +10,7 @@ import "@/styles/styles.css";
 import "@/styles/login.css";
 import "@/styles/contato.css";
 import "@/styles/quem-somos.css";
+import "@/styles/admin.css";
 
 export default function App({ Component, pageProps }) {
    const router = useRouter();
